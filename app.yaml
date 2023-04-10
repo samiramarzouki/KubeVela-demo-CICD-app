@@ -10,7 +10,7 @@ spec:
       properties:
         image: samira1/kubevela-demo-cicd-app
         imagePullPolicy: Always
-        port: 8181
+        port: 8080
       traits:
         - type: rollout
           properties:
